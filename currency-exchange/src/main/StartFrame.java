@@ -52,7 +52,7 @@ public class StartFrame {
 		frame.setTitle("Currency Converter");
 		frame.getContentPane().setLayout(null);
 		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/iconcur.png")));
-		frame.setBackground(Color.decode("0x37383A"));
+		//frame.setBackground(Color.decode("0x37383A"));
 		
 		JLabel labelToIcon = new JLabel("");
 		ImageIcon img = new ImageIcon(this.getClass().getResource("/currencyshadow.png"));
@@ -74,7 +74,7 @@ public class StartFrame {
 		btnStart.setForeground(Color.BLACK);
 		btnStart.setBackground(Color.WHITE);
 		btnStart.setBounds(188, 603, 115, 54);
-		btnStart.setFocusPainted(false);
+		//btnStart.setFocusPainted(false);
 		frame.getContentPane().add(btnStart);
 		
 		JLabel lblTitleC = new JLabel("Convert your currency now!");
